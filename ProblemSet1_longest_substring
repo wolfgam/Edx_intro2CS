@@ -1,0 +1,16 @@
+s = 'azcbobobegghakl'
+r=''
+c=''
+for char in s:
+    if (c == ''):
+        c = char
+    elif (c[-1]<=char):
+        c +=char
+    elif (c[-1]>char):
+        if (len(r)<len(c)):
+            r = c
+            c = char
+        else:
+            c = char
+print ('longest substring: ' +  r)
+print ('current substring: ' + c)
