@@ -193,8 +193,6 @@ def isValidWord(word, hand, wordList):
 # Problem #4: Playing a hand
 #
 
-hand = {'a':2,'b':4}
-len(hand)
 
 def calculateHandlen(hand):
     """ 
